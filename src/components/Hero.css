@@ -1,0 +1,134 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px; /* Offset for fixed header */
+  overflow: hidden;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-subtitle {
+  color: var(--accent-color);
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  font-size: 5rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  letter-spacing: -2px;
+}
+
+.hero-title .accent {
+  color: var(--accent-color);
+}
+
+.hero-role {
+  font-size: 2rem;
+  color: var(--text-main);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  max-width: 500px;
+  margin-bottom: 2.5rem;
+  opacity: 0.8;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-visual {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-placeholder {
+  width: 400px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(31, 40, 51, 0.4), rgba(11, 12, 16, 0.2));
+}
+
+.avatar-circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--bg-color-light), var(--accent-dark));
+  box-shadow: 0 0 40px rgba(102, 252, 241, 0.2);
+  animation: pulse-glow 4s infinite ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.floating-badge {
+  position: absolute;
+  padding: 0.8rem 1.5rem;
+  background: rgba(11, 12, 16, 0.8);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(102, 252, 241, 0.3);
+  border-radius: 20px;
+  color: var(--accent-color);
+  font-weight: 600;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  animation: float 4s infinite ease-in-out alternate;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  100% { transform: translateY(-15px); }
+}
+
+.badge-1 { top: 10%; left: -10%; animation-delay: 0s; }
+.badge-2 { top: 45%; right: -15%; animation-delay: 1.5s; }
+.badge-3 { bottom: 10%; left: -5%; animation-delay: 2.5s; }
+.badge-4 { top: 5%; right: 10%; animation-delay: 0.8s; }
+.badge-5 { bottom: 15%; right: -5%; animation-delay: 1.8s; }
+.badge-6 { top: 40%; left: -15%; animation-delay: 0.5s; }
+
+@media (max-width: 992px) {
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  
+  .hero-title { font-size: 3.5rem; }
+  .hero-role { font-size: 1.5rem; }
+  .hero-description { margin: 0 auto 2.5rem; }
+  .hero-actions { justify-content: center; }
+  
+  .profile-placeholder {
+    width: 300px;
+    height: 350px;
+  }
+  .avatar-circle {
+    width: 200px;
+    height: 200px;
+  }
+}
