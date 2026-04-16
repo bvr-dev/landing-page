@@ -6,7 +6,7 @@ const Contact = () => {
   const { t } = useLanguage();
   return (
     <section id="contact" className="contact section">
-      <div className="container contact-container">
+      <div className="container contact-container" data-aos="fade-up">
         <h2 className="contact-kicker accent">{t.contact.kicker}</h2>
         <h3 className="contact-title">{t.contact.title}</h3>
         <p className="contact-desc">

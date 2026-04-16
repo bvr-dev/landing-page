@@ -18,6 +18,8 @@ const translations = {
       description: 'Ingeniero de software de Victoria de Durango, México. Me especializo en construir interfaces modernas y aplicaciones móviles de alto rendimiento (con React y Expo), cuidando siempre la experiencia de usuario y con gran interés en la Inteligencia Artificial.',
       btnPrimary: 'Ver mi Experiencia',
       btnOutline: 'Contactar',
+      freelanceBadge: 'Disponible para proyectos freelance',
+      downloadCV: 'Descargar CV',
       badge1: 'React',
       badge2: 'React Native',
       badge3: 'Expo',
@@ -40,16 +42,19 @@ const translations = {
         {
           id: 1,
           title: 'Programador Full Stack',
+          date: 'Ene 2024 - Presente',
           description: 'Gobierno del Estado de Durango. Desarrollo y mantenimiento de sistemas estatales utilizando arquitecturas modernas y bases de datos relacionales.'
         },
         {
           id: 2,
           title: 'Frontend Web Developer',
+          date: 'Mar 2023 - Ene 2024',
           description: 'Gobierno del Estado de Durango. Construcción de interfaces de usuario interactivas, integración con APIs RESTful y mejora de la experiencia de usuario.'
         },
         {
           id: 3,
           title: 'Programador Full Stack (Prácticas)',
+          date: 'Ago 2022 - Dic 2022',
           description: 'Black Hole Information Technologies. Desarrollo de software colaborando en múltiples proyectos con metodologías ágiles en un entorno híbrido.'
         }
       ]
@@ -76,6 +81,8 @@ const translations = {
       description: 'Software Engineer based in Victoria de Durango, Mexico. I specialize in building modern web interfaces and high-performance mobile apps (using React and Expo), always focusing on the user experience and with a huge interest in Artificial Intelligence.',
       btnPrimary: 'View Experience',
       btnOutline: 'Contact Me',
+      freelanceBadge: 'Available for freelance projects',
+      downloadCV: 'Download CV',
       badge1: 'React',
       badge2: 'React Native',
       badge3: 'Expo',
@@ -98,16 +105,19 @@ const translations = {
         {
           id: 1,
           title: 'Full Stack Developer',
+          date: 'Jan 2024 - Present',
           description: 'State Government of Durango. Development and maintenance of state systems using modern architectures and relational databases.'
         },
         {
           id: 2,
           title: 'Frontend Web Developer',
+          date: 'Mar 2023 - Jan 2024',
           description: 'State Government of Durango. Building interactive user interfaces, integrating RESTful APIs, and improving the overall user experience.'
         },
         {
           id: 3,
           title: 'Full Stack Developer (Internship)',
+          date: 'Aug 2022 - Dec 2022',
           description: 'Black Hole Information Technologies. Software development collaborating on multiple projects with agile methodologies in a hybrid environment.'
         }
       ]

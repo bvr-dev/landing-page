@@ -12,7 +12,7 @@ const About = () => {
 
   return (
     <section id="about" className="about section">
-      <div className="container">
+      <div className="container" data-aos="fade-up">
         <h2 className="section-title">
           <span className="accent"></span> {t.about.title}
         </h2>
